@@ -1,0 +1,32 @@
+.game {
+  /* border: 1px solid black; */
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  padding: 10px;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  width: 246px;
+  height: 246px;
+  background-color: rgb(153, 114, 153);
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
